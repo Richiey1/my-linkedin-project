@@ -1,145 +1,27 @@
-/*App.css created by Ojo Kehinde*/
+.App {
+  text-align: center;
+}
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: hsl(300, 35%, 41%);
-  margin: 0;
-  padding:  4rem;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.TodoApp {
-  width: 500px;
-  margin: auto;
-  background: #fff;
-  padding: 4rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-h1, h2 {
-  color: #333;
-  font-size: 2rem;
-  text-align: center;
-}
-p {
-  text-align: center;
-  color: #333;
-  padding: 0.75rem;
-}
-
-input[type="text"] {
-  width: 95%;
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: 2px solid #333;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-bottom: 1rem;
-}
-
-button {
-  width: 100%;
-  padding: 0.75rem;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: #8e448e;
+  font-size: calc(10px + 2vmin);
   color: white;
-  font-size: 1rem;
 }
 
-button:hover {
-  background-color: #8e448e;
+.App-link {
+  color: #61dafb;
 }
 
-.filter-buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1rem;
-}
-
-.filter-buttons button {
-  background: none;
-  border: 0.5px solid;
-  font-size: 1rem;
-  cursor: pointer;
-  color: #333;
-  margin-right: 5px;
-}
-
-.filter-buttons .active {
-  background-color: #fff;
-  font-weight: bolder;
-  text-decoration: underline;
-}
-
-.filter-buttons .active:hover {
-  background-color: #8e448e;
-}
-
-.task-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.task-list li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 0;
-  border-bottom: 1px solid #eee;
-}
-
-.task-label {
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-}
-
-.task-label input[type="checkbox"] {
-  margin-right: 0.75rem;
-  transform: scale(1.5);
-}
-
-.buttons {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.edit-btn {
-  width: 180px;
-  background-color: white;
-  padding: 0.5rem;
-  color: black;
-  border: 1px solid;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 5px;
-}
-
-.delete-btn {
-  width: 180px;
-  background-color: black;
-  padding: 0.5rem;
-  color: white;
-  border: 1px solid;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 5px
-
-}
-
-
-.edit-btn:hover {
-  background-color: #777;
-}
-
-.delete-btn {
-  background-color: #8e448e;
-}
-
-.delete-btn:hover {
-  background-color: #c82333;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
